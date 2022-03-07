@@ -6,4 +6,9 @@ services:
    ports:
      - 80:80
    environment:
+     - WORDPRESS_DB_HOST=xxx
+     - WORDPRESS_DB_PORT=xxxx
+     - WORDPRESS_DB_USER=xxxx
+     - WORDPRESS_DB_PASSWORD=xxxxx
+     - WORDPRESS_DB_NAME=xxxxx
 
