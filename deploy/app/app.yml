@@ -6,9 +6,4 @@ services:
    ports:
      - 80:80
    environment:
-     - WORDPRESS_DB_HOST=wordpress.cpudu0qje6gm.us-east-1.rds.amazonaws.com
-     - WORDPRESS_DB_PORT=3306
-     - WORDPRESS_DB_USER=wordpress
-     - WORDPRESS_DB_PASSWORD=wordpress
-     - WORDPRESS_DB_NAME=wordpress
 
